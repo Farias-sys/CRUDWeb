@@ -1,0 +1,215 @@
+/*Global parameters ==================*/
+
+:root{
+    --background-gray: #2C2C2C;
+    --lighter-gray:#4B4B4B;
+    --used-red: #8A2121;
+}
+
+/*Font links ===============*/
+
+@font-face {
+    font-family: GothamBold;
+    src: url(/_fonts/GothamBold.ttf);
+}
+
+@font-face {
+    font-family: GothamBlack;
+    src: url(/_fonts/GothamBold.ttf);
+}
+
+@font-face {
+    font-family: GothamBookItalic;
+    src: url(/_fonts/GothamBookItalic.ttf);
+}
+
+@font-face {
+    font-family: GothamLightItalic;
+    src: url(/_fonts/GothamLightItalic.ttf);
+}
+
+@font-face {
+    font-family: GothamLight;
+    src: url(/_fonts/GothamLight.ttf);
+}
+
+@font-face {
+    font-family: GothamBook;
+    src: url(/_fonts/GothamBook.ttf);
+}
+
+/* Input data modal */
+
+.modal-overlay-insertdata{
+    width: 550px;
+    height: 380px;
+
+    background-color: var(--lighter-gray);
+
+    position: fixed;
+
+    margin-top: 190px;
+    margin-left: 445px;
+
+    top: 0;
+
+    opacity: 0;
+    visibility: hidden;
+
+    z-index: 999;
+}
+
+.modal-overlay-insertdata.active{
+    opacity: 1;
+    visibility: visible;
+
+    box-shadow: 3px 5px 19px 5px #000000;
+}
+
+div.modal-form{
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+
+/* Modal input Content ======================= */
+
+#modal-title{
+    font-family: GothamLight;
+    font-weight: 100;
+    font-size: 36px;
+
+    color: white;
+
+    margin: 0 0 0 0;
+}
+
+#show-db-type{
+    font-family: GothamLight;
+    font-weight: 100;
+    font-size: 24px;
+
+    color: white;
+
+    margin: 0 0 0 0;
+}
+
+.modal-content{
+    margin-top: 23px;
+}
+
+/* Input groups ===================== */
+
+.input-group.element{
+    margin-top: 8px;
+}
+
+.input-group.group{
+    display: flex;
+}
+
+.input-group.twin{
+    display: block;
+}
+
+.input-group.twin.second{
+    margin-left: 35px;
+}
+
+/* Input labels & places */
+
+.input-group.student-name{
+    width: 500px;
+}
+
+.input-label{
+    font-family: GothamLight;
+    font-weight: 100;
+    
+    color: white;
+}
+
+.input-place{
+    width: 250px;
+    height: 30px;
+
+    background-color: var(--background-gray);
+    
+    font-family: GothamBook;
+
+    color: white;
+
+    box-shadow: none;
+    border: none;
+}
+
+.input-place.student-name{
+    width: 500px;
+}
+
+.input-place.teacher{
+    width: 500px;
+}
+
+/* Btns================ */
+
+.input-group.actions{
+    width: 335px;
+
+    margin-top: 28px;
+
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn{
+    box-shadow: none;
+    border: none;
+    stroke: none;
+}
+
+.btn-submit.insert-data{
+    width: 200px;
+    height: 50px;
+
+    font-family: GothamBook;
+    font-weight: 200;
+    font-size: 16;
+    color: white;
+
+    box-shadow: none;
+    border: none;
+    stroke: none;
+
+    background-color: #64B647;
+
+    margin-left: 35px;
+}
+
+.btn-cancel{
+    width: 200px;
+    height: 50px;
+
+    font-family: GothamBook;
+    font-weight: 200;
+    font-size: 16;
+    color: white;
+
+    background-color: #B64747;
+
+    margin-left: 125px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+

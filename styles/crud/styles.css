@@ -1,0 +1,159 @@
+/*Global parameters ==================*/
+
+:root{
+    --background-gray: #2C2C2C;
+    --background-lighther-gray: #787474;
+    --lighter-gray:#4B4B4B;
+    --used-red: #8A2121;
+}
+
+body {
+    background-color: var(--background-gray);
+}
+
+/*Font links ===============*/
+
+@font-face {
+    font-family: GothamBold;
+    src: url(/_fonts/GothamBold.ttf);
+}
+
+@font-face {
+    font-family: GothamBlack;
+    src: url(/_fonts/GothamBold.ttf);
+}
+
+@font-face {
+    font-family: GothamBookItalic;
+    src: url(/_fonts/GothamBookItalic.ttf);
+}
+
+@font-face {
+    font-family: GothamLightItalic;
+    src: url(/_fonts/GothamLightItalic.ttf);
+}
+
+@font-face {
+    font-family: GothamLight;
+    src: url(/_fonts/GothamLight.ttf);
+}
+
+@font-face {
+    font-family: GothamBook;
+    src: url(/_fonts/GothamBook.ttf);
+}
+
+/* Header =============== */
+
+header{
+    display: flex;
+}
+
+.title-container{
+    width: 49.5rem;
+    height: 8.125rem;
+
+    margin-top: 27px;
+    margin-left: -150px;
+
+    background-color: black;
+
+    align-items: center;
+    text-align: center;
+}
+
+#title-text{
+    font-size: 64px;
+    font-family: GothamBlack;
+    font-weight: 800;
+
+    color: white;
+
+    margin-top: 27px;
+    margin-bottom: 0;
+}
+
+/* Main Container =================== */
+
+.main-container{
+    width: 1369px;
+    height: 557px;
+
+    background-color: var(--lighter-gray);
+
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.content{
+    margin-left: 15px;
+}
+
+/* Btns functions of table ================ */
+
+.btns-container{
+    width: 1345px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btns{
+    width: 250px;
+
+    font-family: GothamLight;
+    font-weight: lighter;
+    font-size: 12px;
+    
+    color: white;
+
+    box-shadow: none;
+    border: none;
+}
+
+#btn-cadastrar{
+    background-color: #8A2121;
+}
+
+#btn-pesquisar{
+    background-color: #637ACB;
+}
+
+/* Table ============== */
+
+div.table{
+    width: 1345px;
+    height: 440px;
+
+    margin-top: 15px;
+}
+
+table.table{
+    width: 1345px;
+    height: 440px;
+
+    background-color: var(--background-lighther-gray);
+
+    overflow: scroll;
+}
+
+
+th.table{
+    height: 36px;
+
+    padding-top: 15px;
+
+    font-family: GothamBold;
+    font-size: 18px;
+    color: white;
+}
+
+td.table{
+    height: 10px;
+
+    font-family: GothamLight;
+    color: white;
+
+    text-align: center;
+}

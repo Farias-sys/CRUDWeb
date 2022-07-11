@@ -1,0 +1,165 @@
+/*Global parameters ==================*/
+
+:root{
+    --background-gray: #2C2C2C;
+    --lighter-gray:#4B4B4B;
+    --used-red: #8A2121;
+}
+
+body {
+    background-color: var(--background-gray);
+}
+
+/*Font links ===============*/
+
+@font-face {
+    font-family: GothamBold;
+    src: url(/_fonts/GothamBold.ttf);
+}
+
+@font-face {
+    font-family: GothamBlack;
+    src: url(/_fonts/GothamBold.ttf);
+}
+
+@font-face {
+    font-family: GothamBookItalic;
+    src: url(/_fonts/GothamBookItalic.ttf);
+}
+
+@font-face {
+    font-family: GothamLightItalic;
+    src: url(/_fonts/GothamLightItalic.ttf);
+}
+
+@font-face {
+    font-family: GothamLight;
+    src: url(/_fonts/GothamLight.ttf);
+}
+
+@font-face {
+    font-family: GothamBook;
+    src: url(/_fonts/GothamBook.ttf);
+}
+
+/*Header ================*/
+
+header{
+    display: flex;
+}
+
+.title-container{
+    width: 49.5rem;
+    height: 8.125rem;
+
+    margin-top: 27px;
+    margin-left: -120px;
+
+    background-color: black;
+
+    align-items: center;
+    text-align: center;
+}
+
+#title-text{
+    font-size: 64px;
+    font-family: GothamBlack;
+    font-weight: 800;
+
+    color: white;
+
+    margin-top: 27px;
+    margin-bottom: 0;
+}
+
+/* Login painel ================================= */
+
+.container{
+    width: 46.875rem;
+    height: 23.75rem;
+
+    background-color: var(--lighter-gray);
+
+    margin-top: 60px;
+    margin-left: 345px;
+}
+
+.content{
+    margin-left: 25px;
+}
+
+#painel-title{
+    font-family: GothamLight;
+    font-weight: 300;
+    font-size: 36px;
+
+    color: white;
+
+    margin: 0 0 0 0;
+}
+
+#painel-description{
+    font-family: GothamLight;
+    font-weight: 100;
+    font-size: 24px;
+
+    color: white;
+
+
+    margin-top: 13px;
+    margin-right: 45px;
+    margin-bottom: 0;
+}
+
+.input-group{
+    margin-top: 25px;
+
+    width: 43.75rem;
+}
+
+.input-label{
+    font-family: GothamBold;
+
+    color: white;
+}
+
+.input-place{
+    width: 43.75rem;
+    height: 1.563rem;
+
+    margin-top: 8px;
+    
+    box-shadow: none;
+    border: none;
+
+    background-color: var(--background-gray);
+
+    /* For input text */
+
+    font-family: GothamBook;
+    font-weight: 100;
+    color: white;
+}
+
+div.btn-submit{
+    margin-top: 20px;
+
+    text-align: center;
+    align-items: center;
+
+}
+
+input.btn-submit{
+    font-family: GothamLight;
+    font-weight: 100;
+    color: white;
+    font-size: 24px;
+
+    padding: 1rem 5rem 1rem 5rem;
+
+    box-shadow: none;
+    border: none;
+
+    background-color: var(--used-red);
+}
+

@@ -1,0 +1,286 @@
+/*Global parameters ==================*/
+
+:root{
+    --background-gray: #2C2C2C;
+    --lighter-gray:#4B4B4B;
+    --used-red: #8A2121;
+}
+
+/*Font links ===============*/
+
+@font-face {
+    font-family: GothamBold;
+    src: url(/_fonts/GothamBold.ttf);
+}
+
+@font-face {
+    font-family: GothamBlack;
+    src: url(/_fonts/GothamBold.ttf);
+}
+
+@font-face {
+    font-family: GothamBookItalic;
+    src: url(/_fonts/GothamBookItalic.ttf);
+}
+
+@font-face {
+    font-family: GothamLightItalic;
+    src: url(/_fonts/GothamLightItalic.ttf);
+}
+
+@font-face {
+    font-family: GothamLight;
+    src: url(/_fonts/GothamLight.ttf);
+}
+
+@font-face {
+    font-family: GothamBook;
+    src: url(/_fonts/GothamBook.ttf);
+}
+
+
+/* Search modal styles */
+
+
+.modal-overlay-search{
+    width: 550px;
+    height: 440px;
+    background-color: var(--lighter-gray);
+
+    position: fixed;
+
+    margin-top: 190px;
+    margin-left: 445px;
+
+    top: 0;
+
+    opacity: 0;
+    visibility: hidden;
+
+    z-index: 900;
+}
+
+
+.modal-overlay-search.active{
+    opacity: 1;
+    visibility: visible;
+
+    box-shadow: 3px 5px 19px 5px #000000;
+}
+
+.form-search-content{
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+.modal-search-title{
+    font-family: GothamLight;
+    font-weight: 100;
+    font-size: 36px;
+    
+    color: white;
+    
+    margin: 0 0 0 0;
+}
+
+#text-db-type{
+    font-family: GothamLight;
+    font-weight: 100;
+    font-size: 24px;
+
+    color: white;
+
+    margin: 0 0 0 0;
+
+    margin-top: 5px;
+}
+
+.form-search{
+    margin-top: 5px;
+}
+
+/* Modal delete confirm */
+
+.modal-confirm-exclusion{
+    width: 550px;
+
+    background-color: var(--lighter-gray);
+
+    position: fixed;
+
+    margin-top: 50px;
+    margin-left: 445px;
+
+    top: 0;
+
+    opacity: 0;
+    visibility: hidden;
+
+    z-index: 999;
+
+}
+
+.modal-confirm-exclusion.active{
+    opacity: 1;
+    visibility: visible;
+
+    z-index: 999;
+}
+
+#modal-confirm-exclusion-text{
+    margin-left: 25px;
+
+    font-family: GothamBold;
+    font-size: 28px;
+    color: white;
+}
+
+.delete-btns{
+    margin-left: 25px;
+    margin-bottom: 10px;
+}
+
+#btn-confirm-student-delete{
+    font-family: GothamLight;
+    color: white;
+    font-weight: 100;
+    
+    background-color: var(--used-red);
+
+    box-shadow: none;
+    border: none;
+}
+
+#btn-confirm-class-delete{
+    font-family: GothamLight;
+    color: white;
+    font-weight: 100;
+    
+    background-color: var(--used-red);
+
+    box-shadow: none;
+    border: none;
+}
+
+#btn-cancel-delete{
+    font-family: GothamLight;
+    color: black;
+    font-weight: 100;
+
+    box-shadow: none;
+    border: none;
+}
+
+.input-group.group{
+    margin-top: 25px;
+}
+
+#search-student{
+    width: 142px;
+    height: 40px;
+
+    margin-left: 40px;
+
+    box-shadow: none;
+    border: none;
+
+    font-family: GothamLight;
+    color: white;
+    font-weight: 100;
+
+    background-color: #64B647;
+}
+
+#search-class{
+    width: 142px;
+    height: 40px;
+
+    margin-left: 40px;
+
+    box-shadow: none;
+    border: none;
+
+    font-family: GothamLight;
+    color: white;
+    font-weight: 100;
+
+    background-color: #64B647;
+}
+
+/* Table results ============== */
+
+div#js-display-search-result{
+    width: 500px;
+    height: 132px;
+
+    margin-top: 15px;
+
+    background-color: var(--lighter-gray);
+} 
+
+table.search-table-student{
+    width: 500px;
+    height: 132px;
+
+    overflow: scroll;
+}
+
+
+th{
+    height: 36px;
+
+    padding-top: 15px;
+
+    font-family: GothamBold;
+    font-size: 18px;
+    color: white;
+}
+
+td{
+    height: 10px;
+
+    font-family: GothamLight;
+    color: white;
+
+    text-align: center;
+}
+
+
+
+/* Btnss */
+
+.search-options.btn{
+    margin-right: 25px;
+
+    display: flex;
+
+    justify-content:space-between;
+
+}
+
+#btn-cancelar{
+    background-color: #B64747;
+
+    font-family: GothamLight;
+    color: white;
+    font-weight: 100;
+}
+
+#btn-deletar{
+    background-color: #BE3535;
+
+    font-family: GothamLight;
+    color: white;
+    font-weight: 100;
+}
+
+#btn-alterar{
+    background-color: #ED8F03;
+
+    font-family: GothamLight;
+    color: white;
+    font-weight: 100;
+}
+
+
+

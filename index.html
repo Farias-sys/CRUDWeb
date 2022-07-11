@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/_styles/login.css">
+        <title>Educatech - Login</title>
+    </head>
+
+    <body>
+        <header>
+            <img width="11%" style="z-index: 99;" src="/_assets/title_padles.svg" alt="">
+            <div class="title-container">
+                <h1 id="title-text">Educatech</h1>
+            </div>
+        </header>
+
+        <div class="container" id="login-painel">
+            <div class="content">
+                <hgroup style="padding-top: 1.563rem;">
+                    <h1 id="painel-title">Acesso ao sistema</h1>
+                    <h2 id="painel-description">Utilize a conta de administrador para ter acesso ao banco de dados</h2>
+                </hgroup>
+
+                <form action="\_scripts\login.php" method="POST">
+                    <div class="input-group">
+                        <label for="login" class="input-label">Login (Email ou nome de usuário):</label> <br>
+                        <input type="text" name="login" id="login" class="input-place">
+                    </div>
+
+                    <div class="input-group">
+                        <label for="password" class="input-label">Senha:</label> <br>
+                        <input type="password" name="password" id="password" style="box-shadow: none;" class="input-place">
+                    </div>
+                    
+                    <div class="btn-submit">
+                        <input type="submit" value="Entrar" id="submit" name="submit" class="btn-submit">
+                    </div> 
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

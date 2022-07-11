@@ -1,0 +1,72 @@
+/*Global parameters ==================*/
+
+:root{
+    --background-gray: #2C2C2C;
+    --lighter-gray:#4B4B4B;
+    --used-red: #8A2121;
+}
+
+/*Font links ===============*/
+
+@font-face {
+    font-family: GothamBold;
+    src: url(/_fonts/GothamBold.ttf);
+}
+
+@font-face {
+    font-family: GothamBlack;
+    src: url(/_fonts/GothamBold.ttf);
+}
+
+@font-face {
+    font-family: GothamBookItalic;
+    src: url(/_fonts/GothamBookItalic.ttf);
+}
+
+@font-face {
+    font-family: GothamLightItalic;
+    src: url(/_fonts/GothamLightItalic.ttf);
+}
+
+@font-face {
+    font-family: GothamLight;
+    src: url(/_fonts/GothamLight.ttf);
+}
+
+@font-face {
+    font-family: GothamBook;
+    src: url(/_fonts/GothamBook.ttf);
+}
+
+/* Modal */
+
+.modal-change-data{
+    width: 550px;
+    height: 380px;
+
+    background-color: var(--lighter-gray);
+
+    position: fixed;
+
+    margin-top: 190px;
+    margin-left: 445px;
+
+    top: 0;
+
+    opacity: 0;
+    visibility: hidden;
+
+    z-index: 999;
+}
+
+.modal-change-data.active{
+    visibility: visible;
+    opacity: 1;   
+
+    box-shadow: 3px 5px 19px 5px #000000;
+}
+
+.modal-content{
+    margin-top: 25px;
+    margin-left: 25px;
+}
